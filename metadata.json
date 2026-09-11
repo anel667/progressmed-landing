@@ -1,0 +1,6 @@
+{
+  "name": "ProgressMed",
+  "description": "Одностраничный сайт для клиники ProgressMed (progressmed.kz) с переходом в WhatsApp и установленным пикселем TikTok Ads",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
