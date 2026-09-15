@@ -29,13 +29,10 @@ export default function App() {
     if (typeof window !== 'undefined' && window.ttq && typeof window.ttq.track === 'function') {
       try {
         // Стандартное ключевое событие "Contact" (для оптимизации рекламы TikTok на обращения)
-        window.ttq.track('Contact', {
-          content_name: 'WhatsApp_Lead_ProgressMed',
-          content_category: 'Astana_Oncology',
-          currency: 'KZT',
-          value: 0,
-        });
-
+       window.ttq.track('Contact', {
+  content_name: 'WhatsApp_Lead_ProgressMed',
+  content_category: 'Astana_Oncology',
+});
         // Дополнительное событие клика по кнопке
         window.ttq.track('ClickButton', {
           content_name: 'WhatsApp_Button_Click',
