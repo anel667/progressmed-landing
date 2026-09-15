@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ProgressMed — Медицинский центр в Казахстане</title>
     <meta name="description" content="Одностраничный сайт для клиники ProgressMed (progressmed.kz) с переходом в WhatsApp и установленным пикселем TikTok Ads" />
+    
     <!-- TikTok Pixel Code Start -->
     <script>
       !function (w, d, t) {
@@ -15,12 +16,12 @@
         ttq.page();
       }(window, document, 'ttq');
 
-      // Функция клика: отправляет пиксель и переводит в WhatsApp
+      // Функция клика: отправляет пиксель и переводит в WhatsApp клиники
       window.handleJoin = function(phone, message) {
         if (typeof ttq !== 'undefined') {
           ttq.track('ClickButton');
         }
-        var targetPhone = phone || '77000000000'; // Укажи номер клиники по умолчанию
+        var targetPhone = phone || '77084255544';
         var text = encodeURIComponent(message || 'Здравствуйте! Хочу записаться на прием в ProgressMed');
         window.location.href = 'https://wa.me/' + targetPhone + '?text=' + text;
       };
